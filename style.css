@@ -1,0 +1,258 @@
+/* Estilos gerais */
+body {
+  background-color: #f9e9ea;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ff6b98;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 120px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+
+
+/* Estilos da seção Sobre Nós */
+#sobre {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+
+/* Estilos para botão de ação */
+.btn {
+  display: inline-block;
+  background-color: #ff6b6c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+/* Estilos para dispositivos de PC */
+@media screen and (min-width: 768px) {
+  .instagram-button {
+    width: 200px; /* ajuste o tamanho do botão para PC */
+  }
+}
+
+.instagram-button:hover {
+  background-color: #c33c52;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.produto h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.produto p {
+  font-size: 14px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.produto span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.btn-saber-mais {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #e76daa;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-saber-mais:hover {
+  background-color: #9d0de0;
+}
+
+#feedback {
+  background-color: #f5ace3;
+  padding: 50px 0;
+}
+
+.feedback-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feedback {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.feedback p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback span {
+  color: #999;
+  font-size: 14px;
+}
+.recomendacoes h2 {
+  text-align: center;
+}
+footer {
+  background-color: #e9cdf0;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+/* Estilos do botão hamburguer */
+.botao-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: flex;
+  top: 15px;
+  right: 15px;
+}
+
+.botao-menu:focus {
+  outline: none;
+}
+
+.botao-menu i {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Estilos do menu hamburguer */
+.menu-oculto {
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  background: #fff;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.botao-menu:hover + .menu-oculto,
+.botao-menu:focus + .menu-oculto,
+.menu-oculto:hover,
+.menu-oculto:focus {
+  transform: scale(1);
+}
+
+.menu-oculto li {
+  margin: 0 10px;
+}
+
+.menu-oculto a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-oculto a:hover {
+  color: #f44336;
+}

@@ -1,0 +1,87 @@
+/* Estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f9f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilos do header */
+  header {
+    
+    background-color: #ff0080;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .fa-instagram {
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    /* Seus estilos para o título */
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  
+  /* Estilos do main */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff69b4;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    background-color: #ff69b4;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6eb4;
+  }
+  

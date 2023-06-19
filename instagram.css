@@ -1,0 +1,88 @@
+/* Definição de estilos para a página "Por que seguir nossa loja no Instagram" */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff0087;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  ul {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li::before {
+    content: "• ";
+    color: #e38e3d;
+  }
+  
+  button {
+    background-color: #f600ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c17631;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

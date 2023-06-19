@@ -1,0 +1,58 @@
+body {
+    background-color: #f5e1e6;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #e91e63;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .botao-voltar {
+    background-color: #fff;
+    color: #e91e63;
+    border: none;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .botao-voltar:hover {
+    background-color: #e91e63;
+    color: #fff;
+  }
+  
